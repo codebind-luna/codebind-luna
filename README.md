@@ -1,22 +1,88 @@
 # 👋 Hi, I'm Luna
 
-### Senior Backend & Platform Engineer | Golang | Distributed Systems | Kubernetes
+### Senior / Staff Backend & Platform Engineer | SRE | Golang | Distributed Systems | Kubernetes
 
-I'm a **Senior Software Engineer with 10+ years of experience** building backend services, distributed systems, cloud platforms, and developer infrastructure.
+**Open to Staff / Senior Platform Engineering / SRE roles** · Bangalore · Hyderabad · Pune · Remote
 
-I enjoy solving complex engineering problems around **scalability, reliability, concurrency, infrastructure automation, and distributed systems**. My experience spans backend development in Go, Kubernetes platform engineering, cloud infrastructure, observability, and large-scale systems.
+I'm a **Senior Software Engineer with 10+ years of experience** building backend services, distributed systems, and the Kubernetes platforms other teams deploy on. My recent work is multi-cluster platform engineering at fleet scale — control-plane design, GitOps architecture, and deployment workflows operating across **500+ Kubernetes clusters**.
+
+I enjoy solving complex engineering problems around **scalability, reliability, concurrency, infrastructure automation, and distributed systems**, in Go and Kubernetes.
+
+---
+
+## 📊 Selected Impact
+
+- **500+ Kubernetes clusters · 60+ applications migrated with zero downtime** — designed the GitOps architecture and platform workflows operating across hundreds of workload clusters, migrating 60+ applications onto it without a single service interruption.
+- **Multi-cluster control plane** — designed systems for securely onboarding and managing remote Kubernetes clusters at scale.
+- **90% reduction in deployment wait time** — designed parallel, non-blocking deployment strategies in place of serialized rollouts.
 
 ---
 
-## 🌐 Open Source Contributions
+## 🚀 Featured Project
 
-### [Airship](https://github.com/airshipit/deckhand) — [View Commits](#)
-Contributed to the Airship **Deckhand** configuration management platform by enhancing the secret substitution engine to support one-to-many configuration propagation, and designing a development-mode authentication framework that removed Keystone dependencies from local development workflows.
-
-### [OpenStack-Helm-Infra](https://github.com/openstack/openstack-helm-infra) — [View Commits](#)
-Extended the OpenStack-Helm ecosystem by contributing new infrastructure components, Kubernetes controller integrations, and automated integration tests, strengthening deployment automation and release quality.
-
-### [Neutron-Tempest-Plugin](https://github.com/openstack/neutron-tempest-plugin) — [View Commits](#)
-Expanded OpenStack Neutron's integration test coverage, improving release quality.
+**[Ordered Upgrade Operator](https://github.com/codebind-luna/ordered-upgrade-operator)**
+- A Kubernetes operator that enforces dependency-aware rollout ordering, upgrading a callee service before its caller so in-flight requests don't fail mid-rollout. Written in Go with a `v1alpha1` CRD, envtest unit coverage and Kind-based end-to-end tests exercising mid-rollout termination.
 
 ---
+
+## 🌍 Open Source Contributions
+
+I contribute to open-source infrastructure and cloud-native projects, with a focus on backend systems, Kubernetes, platform engineering and infrastructure automation.
+
+**Airship**
+[View Commits](https://github.com/airshipit/deckhand/commits?author=codebind-luna)
+- Contributed to the Airship Deckhand configuration management platform by enhancing the secret substitution engine to support one-to-many configuration propagation and designing a development-mode authentication framework that removed Keystone dependencies from local development workflows.
+
+**Openstack-helm-infra**
+[View Commits](https://github.com/openstack/openstack-helm-infra/commits?author=codebind-luna)
+- Extended the OpenStack-Helm ecosystem by contributing new infrastructure components, Kubernetes controller integrations, and automated integration tests, strengthening deployment automation and release quality.
+
+**Neutron-tempest-plugin**
+[View Commits](https://github.com/openstack/neutron-tempest-plugin/commits/master/)
+- Expanded OpenStack Neutron's integration test coverage, improving release quality.
+
+---
+
+## 🛠️ Technologies
+
+**Languages**
+`Go` `Python` `Bash` `SQL`
+
+**Cloud & Infrastructure**
+`AWS` `Terraform` `Ansible` `Docker` `Kubernetes` `Linux`
+
+**Kubernetes Ecosystem**
+`Kubebuilder` `Operator SDK` `Cluster API` `Helm` `Argo CD` `Rancher` `CRDs & Controllers`
+
+**Reliability Engineering**
+`SLIs & SLOs` `Error Budgets` `Incident Response` `Postmortems` `Capacity Planning` `Progressive Delivery`
+
+**Observability**
+`Prometheus` `Grafana` `OpenTelemetry` `Loki` `Alertmanager` `Thanos`
+
+**CI/CD & Delivery**
+`GitHub Actions` `Argo Workflows` `Zuul` `GitOps`
+
+**Data & Messaging**
+`Kafka` `RabbitMQ` `PostgreSQL` `MongoDB` `Redis` `gRPC`
+
+---
+
+## 🌱 Currently Exploring
+
+- AI/LLM infrastructure — GPU scheduling, vLLM and inference platforms on Kubernetes
+- MLOps & Kubernetes-native ML infrastructure
+- Multi-cluster fleet management and internal platform APIs
+- eBPF and Cilium for network-level observability
+- SLO-driven reliability at scale — Thanos, long-retention metrics, alert quality
+- Infrastructure cost efficiency and capacity modelling
+
+---
+
+## 🤝 Let's Connect
+
+I'm interested in conversations around:
+
+Backend Engineering · Platform Engineering · Kubernetes · Distributed Systems · Cloud Infrastructure · Observability · AI Infrastructure
+
+[LinkedIn](https://www.linkedin.com/in/luna-das-2610a099/) · [Email](mailto:cse2013luna@gmail.com)
