@@ -20,14 +20,11 @@ I enjoy solving complex engineering problems around **scalability, reliability, 
 
 ## 🚀 Featured Projects
 
-**[Ordered Upgrade Operator](https://github.com/codebind-luna/ordered-upgrade-operator)**
-- A Kubernetes operator that enforces dependency-aware rollout ordering, upgrading a callee service before its caller so in-flight requests don't fail mid-rollout. Written in Go with a `v1alpha1` CRD, envtest unit coverage and Kind-based end-to-end tests exercising mid-rollout termination.
+**[Ordered Upgrade Operator](https://github.com/codebind-luna/ordered-upgrade-operator)** — A Kubernetes operator that upgrades a callee service before its caller, so in-flight requests don't fail mid-rollout; Go and a `v1alpha1` CRD, proven by Kind end-to-end tests that terminate pods mid-rollout.
 
-**[OTel Trace Propagation](https://github.com/codebind-luna/otel-trace-propagation)**
-- Distributed tracing where it usually breaks: across a message queue. An HTTP request, a RabbitMQ publish and a worker in a separate process land in a **single trace of five spans**, by carrying W3C trace context on message metadata through a custom OpenTelemetry `TextMapCarrier`. Go, OTel, RabbitMQ, MongoDB and Jaeger, with a compose stack and a CI job that drives a real request and fails unless the trace spans both services.
+**[OTel Trace Propagation](https://github.com/codebind-luna/otel-trace-propagation)** — Distributed tracing across the boundary where it usually breaks: a custom OpenTelemetry `TextMapCarrier` carries W3C trace context on RabbitMQ message metadata, so an HTTP request and a worker in a separate process land in one five-span trace — with a CI job that fails unless the trace spans both services.
 
-**[Train Ticket Booking](https://github.com/codebind-luna/train-ticket-booking)**
-- A gRPC ticket-booking service in Go built around one invariant: never sell the same seat twice. Seat allocation is a read-then-write, so it is enforced by a single write lock spanning the whole decision and proven by concurrency specs — 200 buyers contending for 20 seats, and 50 simultaneous retries by one buyer — running under the race detector in CI. Ports-and-adapters layering, protobuf/buf codegen, golangci-lint clean.
+**[Train Ticket Booking](https://github.com/codebind-luna/train-ticket-booking)** — A gRPC booking service in Go built around one invariant, never sell the same seat twice: seat allocation is a read-then-write, so a single write lock spans the whole decision, proven by 200 buyers contending for 20 seats under the race detector in CI.
 
 ---
 
