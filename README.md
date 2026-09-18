@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Luna
 
-### Senior / Staff Backend & Platform Engineer | SRE | Golang | Distributed Systems | Kubernetes
+### Distributed Systems · Kubernetes · Go · Cloud Infrastructure
 
-**Open to Staff / Senior Platform Engineering / SRE roles** · Bangalore · Hyderabad · Pune · Remote
+**Open to Staff / Senior Backend, Platform Engineering & SRE roles** · Bangalore · Hyderabad · Pune · Remote
 
 I'm a **Senior Software Engineer with 10+ years of experience** building backend services, distributed systems, and the Kubernetes platforms other teams deploy on. My recent work is multi-cluster platform engineering at fleet scale — control-plane design, GitOps architecture, and deployment workflows operating across **500+ Kubernetes clusters**.
 
